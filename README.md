@@ -95,7 +95,6 @@ python ChatGPT_To_HTML.py
 ## 📚 Documentation & Links
 
 - **Python:** [https://www.python.org/](https://www.python.org/)
-- **GitHub Flavored Markdown:** [https://github.github.com/gfm/](https://github.github.com/gfm/)
 - **pytz Library:** [https://pypi.org/project/pytz/](https://pypi.org/project/pytz/)
 - **ChatGPT:** [https://openai.com/chatgpt](https://openai.com/chatgpt)
 
