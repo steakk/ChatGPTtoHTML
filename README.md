@@ -19,7 +19,7 @@ This allows you to **quickly search, navigate, and reference** past ChatGPT conv
 ## 📥 Installation
 
 ### **🔹 Prerequisites**
-Ensure you have **Python 3.7+** installed. You can download it here:  
+Ensure you have **Python 3.6+** installed. You can download it here:  
 👉 [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 ### **🔹 Clone the Repository**
