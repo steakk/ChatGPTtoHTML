@@ -1,0 +1,180 @@
+/* General Styles */
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    height: 100vh; 
+    overflow-x: hidden; 
+}
+
+/* Sidebar */
+#sidebar { 
+    width: 300px; 
+    height: 100vh; 
+    overflow-y: auto; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    background: #333; 
+    color: white; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+/* Expand/Collapse Buttons */
+.expand-collapse-btn { 
+    background: #555; 
+    color: white; 
+    border: none; 
+    padding: 8px 10px; 
+    cursor: pointer; 
+    width: 100%; 
+    text-align: left; 
+    font-size: 14px; 
+    border-radius: 4px; 
+    margin-bottom: 8px; 
+}
+.expand-collapse-btn:hover { 
+    background: #666; 
+}
+
+/* Year & Week Sections */
+.year, .month { 
+    cursor: pointer; 
+    padding: 8px; 
+    background: #222; 
+    margin: 5px 0; 
+    border-radius: 4px; 
+    display: flex; 
+    align-items: center; 
+    font-size: 14px;
+    font-weight: bold;
+}
+.year:hover, .month:hover { 
+    background: #444; 
+}
+.arrow { 
+    margin-right: 8px; 
+    cursor: pointer; 
+}
+/* Week Sections (Indented Under Year) */
+.month-list {
+    margin-left: 15px;  /* Indents weeks under year */
+    padding-left: 10px;
+    border-left: 2px solid #777; /* Vertical line for visual structure */
+}
+
+/* Week Items */
+.month {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    background: #555;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+/* Conversation List (Indented More Under Weeks) */
+.conversation-list {
+    margin-left: 20px;  /* Indents conversations under weeks */
+    padding-left: 10px;
+    border-left: 1px dashed #888; /* Lighter vertical line */
+}
+
+/* Conversation Links */
+.conversation-link { 
+    display: block; 
+    color: white; 
+    text-decoration: none; 
+    background: #444; 
+    padding: 6px 10px; 
+    margin: 4px 0; 
+    border-radius: 4px; 
+    font-size: 13px;
+}
+.conversation-link:hover { 
+    background: #555; 
+}
+
+/* Search Bar */
+#search-bar {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Search Results */
+#search-results {
+    max-height: 200px;
+    overflow-y: auto;
+    background: #222;
+    padding: 5px;
+}
+
+.search-result a {
+    text-decoration: none;
+    color: white;
+    background: #444;
+    padding: 6px;
+    display: block;
+}
+
+.search-result a:hover {
+    background: #555;
+}
+
+/* Content Area */
+#content { 
+    margin-left: 320px; 
+    padding: 15px; 
+    flex-grow: 1; 
+    overflow-y: auto; 
+    box-sizing: border-box;
+}
+/* Highlight search results */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+/* Message Formatting */
+.conversation { 
+    background: white; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 8px; 
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1); 
+}
+h2 { 
+    color: #333; 
+    font-size: 1rem; 
+}
+.timestamp { 
+    font-size: 0.8rem; 
+    color: #666; 
+    margin-bottom: 5px; 
+}
+.message { 
+    margin-bottom: 5px; 
+    padding: 5px; 
+    border-radius: 3px; 
+}
+.user { 
+    background: #dff0d8; 
+    border-left: 5px solid #5cb85c; 
+}
+.assistant { 
+    background: #d9edf7; 
+    border-left: 5px solid #337ab7; 
+}
+pre { 
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+    background: #f8f8f8; 
+    padding: 10px; 
+    border-radius: 5px; 
+    font-family: monospace; 
+}
